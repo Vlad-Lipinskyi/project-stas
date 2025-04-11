@@ -1,0 +1,97 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+img {
+    width: 470px;
+    height: 470px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #121212;
+    color: #f1f1f1;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #1f1f1f;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+  }
+
+  .explore{
+    text-align: center;
+  }
+  
+  .game-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game-list li {
+    margin: 1rem 0;
+  }
+  
+  .game-list a {
+    color: #4fc3f7;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  .game-list a:hover {
+    color: #81d4fa;
+  }
+  
+  .game-page {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .game-page img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  .back-link {
+    display: inline-block;
+    margin-top: 2rem;
+    color: #ffab40;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .back-link:hover {
+    color: #ffd180;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    body {
+      padding: 10px;
+    }
+  
+    header, .game-page {
+      padding: 1rem;
+    }
+  }
+  
